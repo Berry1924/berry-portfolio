@@ -79,8 +79,8 @@ export const PROJECTS: Project[] = [
       "Extensible Plugin System for developer custom skills"
     ],
     techStack: ["Python", "C++", "Ollama", "Whisper", "LangChain", "Vector DB", "FastAPI", "Qt / PySide"],
-    githubUrl: "https://github.com/BerrySurya/NEON-AI-OS",
-    docUrl: "https://github.com/BerrySurya/NEON-AI-OS/tree/main/docs",
+    githubUrl: "https://github.com/Berry1924/NEON-AI-OS",
+    docUrl: "https://github.com/Berry1924/NEON-AI-OS/tree/main/docs",
     demoUrl: "https://neon-ai-demo.berrysurya.dev",
     futureImprovements: [
       "Zero-shot multimodal vision support for direct screen understanding",
@@ -108,8 +108,8 @@ export const PROJECTS: Project[] = [
       "Low Battery & Memory Footprint optimized via C++ NDK"
     ],
     techStack: ["Kotlin", "Android Studio", "C++ NDK", "TensorFlow Lite", "DNS-over-HTTPS", "Jetpack Compose"],
-    githubUrl: "https://github.com/BerrySurya/SafeNet-Android",
-    docUrl: "https://github.com/BerrySurya/SafeNet-Android/wiki",
+    githubUrl: "https://github.com/Berry1924/SafeNet-Android",
+    docUrl: "https://github.com/Berry1924/SafeNet-Android/wiki",
     futureImprovements: [
       "Quantum-resistant local key negotiation simulation",
       "Wi-Fi probe request masking module",
@@ -136,8 +136,8 @@ export const PROJECTS: Project[] = [
       "ESP32 hardware demonstrator with low-power OLED alert cluster"
     ],
     techStack: ["MATLAB", "Simulink", "C++", "ESP32", "Embedded Systems", "CAN Bus", "ITS Protocols"],
-    githubUrl: "https://github.com/BerrySurya/DAAS-V2V-Research",
-    docUrl: "https://github.com/BerrySurya/DAAS-V2V-Research/blob/main/paper_draft.pdf",
+    githubUrl: "https://github.com/Berry1924/DAAS-V2V-Research",
+    docUrl: "https://github.com/Berry1924/DAAS-V2V-Research/blob/main/paper_draft.pdf",
     futureImprovements: [
       "5G NR-V2X sidelink protocol suite integration",
       "Reinforcement Learning-based dynamic channel allocation",
@@ -163,8 +163,8 @@ export const PROJECTS: Project[] = [
       "Lightweight PyTorch runtime for edge CPU deployment"
     ],
     techStack: ["Python", "PyTorch", "Librosa", "Scikit-Learn", "NumPy", "Streamlit"],
-    githubUrl: "https://github.com/BerrySurya/AI-Voice-Detection",
-    docUrl: "https://github.com/BerrySurya/AI-Voice-Detection#readme",
+    githubUrl: "https://github.com/Berry1924/AI-Voice-Detection",
+    docUrl: "https://github.com/Berry1924/AI-Voice-Detection#readme",
     futureImprovements: [
       "Cross-lingual audio model training",
       "Streaming WebRTC browser plugin",
@@ -496,7 +496,7 @@ export const CERTIFICATIONS: Certification[] = [
 ];
 
 export const SOCIAL_PROFILES: SocialProfile[] = [
-  { platform: "GitHub", username: "@BerrySurya", url: "https://github.com/BerrySurya", category: "Code & Dev", icon: "Github", isVerified: true, actionText: "View Repositories" },
+  { platform: "GitHub", username: "@Berry1924", url: "https://github.com/Berry1924", category: "Code & Dev", icon: "Github", isVerified: true, actionText: "View Repositories" },
   { platform: "LinkedIn", username: "A. Berry Sugandh Surya", url: "https://linkedin.com/in/berry-sugandh-surya", category: "Professional & Social", icon: "Linkedin", isVerified: true, actionText: "Connect" },
   { platform: "Email", username: "berry.sugandh.surya@gmail.com", url: "mailto:berry.sugandh.surya@gmail.com", category: "Professional & Social", icon: "Mail", isVerified: true, actionText: "Send Mail" },
   { platform: "X (Twitter)", username: "@BerrySurya_AI", url: "https://x.com/BerrySurya_AI", category: "Professional & Social", icon: "Twitter", isVerified: true, actionText: "Follow" },

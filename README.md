@@ -54,7 +54,7 @@ Designed with a Google / Vercel / Stripe design language, featuring glassmorphis
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/BerrySurya/my-portfolio.git
+   git clone https://github.com/Berry1924/my-portfolio.git
    cd my-portfolio
    ```
 
@@ -96,6 +96,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## 📬 Connect with Berry
 
 - **Primary Email**: [berry.sugandh.surya@gmail.com](mailto:berry.sugandh.surya@gmail.com)
-- **GitHub**: [@BerrySurya](https://github.com/BerrySurya)
+- **GitHub**: [@Berry1924](https://github.com/Berry1924)
 - **LinkedIn**: [A. Berry Sugandh Surya](https://linkedin.com/in/berry-sugandh-surya)
 - **X (Twitter)**: [@BerrySurya_AI](https://x.com/BerrySurya_AI)
