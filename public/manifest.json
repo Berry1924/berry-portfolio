@@ -1,0 +1,15 @@
+{
+  "short_name": "Berry AI",
+  "name": "A. Berry Sugandh Surya - AI Systems Engineer Portfolio",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "background_color": "#090D16",
+  "theme_color": "#4285F4",
+  "display": "standalone"
+}
