@@ -163,8 +163,8 @@ export const PROJECTS: Project[] = [
       "Lightweight PyTorch runtime for edge CPU deployment"
     ],
     techStack: ["Python", "PyTorch", "Librosa", "Scikit-Learn", "NumPy", "Streamlit"],
-    githubUrl: "https://github.com/Berry1924/AI-Voice-Detection",
-    docUrl: "https://github.com/Berry1924/AI-Voice-Detection#readme",
+    githubUrl: "https://github.com/Berry1924/voice-detection-model",
+    docUrl: "https://github.com/Berry1924/voice-detection-model#readme",
     futureImprovements: [
       "Cross-lingual audio model training",
       "Streaming WebRTC browser plugin",
@@ -497,7 +497,7 @@ export const CERTIFICATIONS: Certification[] = [
 
 export const SOCIAL_PROFILES: SocialProfile[] = [
   { platform: "GitHub", username: "@Berry1924", url: "https://github.com/Berry1924", category: "Code & Dev", icon: "Github", isVerified: true, actionText: "View Repositories" },
-  { platform: "LinkedIn", username: "A. Berry Sugandh Surya", url: "https://linkedin.com/in/berry-sugandh-surya", category: "Professional & Social", icon: "Linkedin", isVerified: true, actionText: "Connect" },
+  { platform: "LinkedIn", username: "A. Berry Sugandh Surya", url: "https://www.linkedin.com/in/berry-sugandh-surya-a-68650b396", category: "Professional & Social", icon: "Linkedin", isVerified: true, actionText: "Connect" },
   { platform: "Email", username: "berry.sugandh.surya@gmail.com", url: "mailto:berry.sugandh.surya@gmail.com", category: "Professional & Social", icon: "Mail", isVerified: true, actionText: "Send Mail" },
   { platform: "X (Twitter)", username: "@BerrySurya_AI", url: "https://x.com/BerrySurya_AI", category: "Professional & Social", icon: "Twitter", isVerified: true, actionText: "Follow" },
   { platform: "ResearchGate", username: "A-Berry-Sugandh-Surya", url: "https://researchgate.net/profile/A-Berry-Sugandh-Surya", category: "Research & Papers", icon: "BookOpen", isVerified: true, actionText: "View Publications" },

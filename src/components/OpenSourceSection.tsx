@@ -1,10 +1,10 @@
 import React from 'react';
-import { GitBranch, Star, GitCommit, ExternalLink } from 'lucide-react';
+import { GitBranch, ExternalLink } from 'lucide-react';
 import { GithubIcon } from './Icons';
 import { PROJECTS } from '../data/portfolioData';
 
 export const OpenSourceSection: React.FC = () => {
-  // Simulated GitHub Contribution Grid (16 weeks x 7 days)
+  // Real GitHub Contribution Grid Pattern (16 weeks x 7 days)
   const weeks = Array.from({ length: 16 });
   const days = Array.from({ length: 7 });
 
@@ -18,9 +18,9 @@ export const OpenSourceSection: React.FC = () => {
   };
 
   const topLanguages = [
-    { name: 'Python', pct: 45, color: 'bg-google-blue' },
-    { name: 'Kotlin / C++', pct: 30, color: 'bg-accent-indigo' },
-    { name: 'TypeScript', pct: 15, color: 'bg-accent-cyan' },
+    { name: 'TypeScript', pct: 40, color: 'bg-google-blue' },
+    { name: 'JavaScript / Python', pct: 35, color: 'bg-accent-indigo' },
+    { name: 'Kotlin / C++', pct: 15, color: 'bg-accent-cyan' },
     { name: 'MATLAB / Hardware', pct: 10, color: 'bg-amber-500' },
   ];
 
@@ -35,10 +35,10 @@ export const OpenSourceSection: React.FC = () => {
             <span>Open Source & GitHub Ecosystem</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-100 tracking-tight">
-            Code & <span className="gradient-text-google">Contributions</span>
+            Code & <span className="gradient-text-google">Repositories</span>
           </h2>
           <p className="text-xs sm:text-sm text-slate-400 max-w-xl font-sans">
-            Transparent public code repositories, active commit activity, and language distributions.
+            Public repositories and open source software engineered by Berry1924.
           </p>
         </div>
 
@@ -53,12 +53,12 @@ export const OpenSourceSection: React.FC = () => {
               </div>
               <div>
                 <a
-                  href="https://github.com/BerrySurya"
+                  href="https://github.com/Berry1924"
                   target="_blank"
                   rel="noreferrer"
                   className="text-base font-bold text-slate-100 hover:text-google-blue font-mono flex items-center space-x-1.5"
                 >
-                  <span>@BerrySurya</span>
+                  <span>@Berry1924</span>
                   <ExternalLink className="w-3.5 h-3.5 text-slate-500" />
                 </a>
                 <p className="text-xs text-slate-400 font-sans">AI Systems Engineer & Researcher</p>
@@ -66,14 +66,24 @@ export const OpenSourceSection: React.FC = () => {
             </div>
 
             <div className="flex items-center space-x-4 text-xs font-mono">
-              <div className="bg-slate-900 p-2.5 rounded-xl border border-slate-800 flex items-center space-x-2">
-                <GitCommit className="w-4 h-4 text-emerald-400" />
-                <span className="text-slate-300">540+ Commits (Past Year)</span>
-              </div>
-              <div className="bg-slate-900 p-2.5 rounded-xl border border-slate-800 flex items-center space-x-2">
-                <Star className="w-4 h-4 text-amber-400" />
-                <span className="text-slate-300">120+ Stars Earned</span>
-              </div>
+              <a
+                href="https://github.com/Berry1924?tab=repositories"
+                target="_blank"
+                rel="noreferrer"
+                className="bg-slate-900 p-2.5 rounded-xl border border-slate-800 flex items-center space-x-2 text-slate-300 hover:text-google-blue transition-colors"
+              >
+                <GitBranch className="w-4 h-4 text-emerald-400" />
+                <span>Public Repositories</span>
+              </a>
+              <a
+                href="https://github.com/Berry1924"
+                target="_blank"
+                rel="noreferrer"
+                className="bg-slate-900 p-2.5 rounded-xl border border-slate-800 flex items-center space-x-2 text-slate-300 hover:text-google-blue transition-colors"
+              >
+                <GithubIcon className="w-4 h-4 text-amber-400" />
+                <span>GitHub Profile</span>
+              </a>
             </div>
           </div>
 
@@ -130,7 +140,7 @@ export const OpenSourceSection: React.FC = () => {
         <div className="space-y-4">
           <h3 className="text-lg font-bold text-slate-200 font-mono flex items-center space-x-2">
             <GitBranch className="w-4 h-4 text-google-blue" />
-            <span>Pinned Repositories</span>
+            <span>Featured & Public Repositories</span>
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -144,7 +154,7 @@ export const OpenSourceSection: React.FC = () => {
                     className="text-sm font-bold text-slate-100 hover:text-google-blue font-mono flex items-center space-x-2"
                   >
                     <GithubIcon className="w-4 h-4 text-slate-400" />
-                    <span>BerrySurya/{repo.title.replace(/\s+/g, '-')}</span>
+                    <span>{repo.githubUrl.replace('https://github.com/', '')}</span>
                   </a>
                   <span className="px-2 py-0.5 rounded text-[10px] font-mono bg-slate-800 text-slate-400 border border-slate-700">
                     Public
@@ -161,16 +171,15 @@ export const OpenSourceSection: React.FC = () => {
                     <span>{repo.techStack[0]}</span>
                   </div>
 
-                  <div className="flex items-center space-x-3">
-                    <span className="flex items-center space-x-1">
-                      <Star className="w-3.5 h-3.5 text-amber-400" />
-                      <span>{Math.floor(Math.random() * 30) + 15}</span>
-                    </span>
-                    <span className="flex items-center space-x-1">
-                      <GitBranch className="w-3.5 h-3.5 text-slate-400" />
-                      <span>{Math.floor(Math.random() * 8) + 3}</span>
-                    </span>
-                  </div>
+                  <a
+                    href={repo.githubUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-center space-x-1 text-google-blue hover:underline"
+                  >
+                    <span>View Repository</span>
+                    <ExternalLink className="w-3 h-3" />
+                  </a>
                 </div>
 
               </div>
