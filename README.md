@@ -95,7 +95,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📬 Connect with Berry
 
-- **Primary Email**: [berry.sugandh.surya@gmail.com](mailto:berry.sugandh.surya@gmail.com)
+- **Primary Email**: [berry.sugandh.surya@gmail.com](mailto:berrysugandhsurya19@gmail.com)
 - **GitHub**: [@Berry1924](https://github.com/Berry1924)
-- **LinkedIn**: [A. Berry Sugandh Surya](https://linkedin.com/in/berry-sugandh-surya)
-- **X (Twitter)**: [@BerrySurya_AI](https://x.com/BerrySurya_AI)
+- **LinkedIn**: [A. Berry Sugandh Surya](https://www.linkedin.com/in/berry-sugandh-surya-a-68650b396/)
+- **X (Twitter)**: [@BerrySurya_AI](https://x.com/BerrySugandh19)
